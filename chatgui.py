@@ -102,7 +102,7 @@ base.resizable(width=FALSE, height=FALSE)
 
 #Crée la fenêtre de discussion et affiche un message d'accueil
 ChatLog = Text(base, bd=0, bg="white", height="8", width="50", font="Arial",)
-ChatLog.insert(END, "Bonjour, Je suis ChatBot ! Posez-moi une question ou tapez 'aide' pour voir ce que je sais faire !\n\n")
+ChatLog.insert(END, "Bienvenue dans le chatbot ! Tapez votre message pour commencer.\n\n")
 ChatLog.config(state=DISABLED)
 
 #Associe la barre de défilement à la fenêtre de discussion
