@@ -1,0 +1,194 @@
+{
+  "intents": [
+    {
+      "tag": "Salutations",
+      "patterns": [
+        "Bonjour",
+        "Bonsoir",
+        "Salut",
+        "Coucou",
+        "Hello"
+      ],
+      "responses": [
+        "Bonjour  ! Comment puis-je vous aider ?",
+        "Bonsoir ! Que puis-je faire pour vous ?",
+        "Salut ! Que souhaitez-vous savoir ?",
+        "Coucou ! Comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "CommentCaVa",
+      "patterns": [
+        "Comment vas-tu ?",
+        "Ça va ?",
+        "Comment allez-vous ?",
+        "Tu vas bien ?"
+      ],
+      "responses": [
+        "Je vais très bien, merci !",
+        "Tout va bien de mon côté !",
+        "Impeccable, merci !"
+      ]
+    },
+    {
+      "tag": "Langue",
+      "patterns": [
+        "Quelles langues parles-tu ?",
+        "Tu parles quelles langues ?",
+        "Tu parles anglais ?"
+      ],
+      "responses": [
+        "Je parle uniquement le français pour l'instant !",
+        "Je suis configuré en français, mais je peux apprendre d'autres langues !"
+      ]
+    },
+    {
+      "tag": "Age",
+      "patterns": [
+        "Quel âge as-tu ?",
+        "Tu as quel âge ?",
+        "T'as quel âge ?"
+      ],
+      "responses": [
+        "Je n'ai pas d'âge, je suis un programme !",
+        "L'âge ne s'applique pas aux chatbots !"
+      ]
+    },
+    {
+      "tag": "CouleurPreferee",
+      "patterns": [
+        "Quelle est ta couleur préféré ?",
+        "Tu aimes quelle couleur ?",
+        "Couleur préférée"
+      ],
+      "responses": [
+        "Je dirais le jaune comme le soleil.",
+        "Le jaune comme le citron."
+      ]
+    },
+    {
+      "tag": "QuestionMeteo",
+      "patterns": [
+        "Il pleut ?",
+        "Il fait beau ?",
+        "Il fait froid ?",
+        "Il fait chaud ?"
+      ],
+      "responses": [
+        "Je n'ai pas accès à la météo en direct ! Consultez meteofrance.com.",
+        "Regardez par la fenêtre ! Ou consultez meteofrance.com pour plus de détails.",
+        "Je suis un chatbot, pas un météorologue ! Essayez meteofrance.com."
+      ]
+    },
+    {
+      "tag": "ApprendreMeteo1",
+      "patterns": [
+        "C'est quoi la météo ?",
+        "Définition météo",
+        "Qu'est-ce que la météo"
+      ],
+      "responses": [
+        "La météo est l'étude des conditions atmosphériques à court terme : pluie, vent, température, ..."
+      ]
+    },
+    {
+      "tag": "ApprendreMeteo2",
+      "patterns": [
+        "C'est quoi la climatologie ?",
+        "Différence météo et climat ?",
+        "Météo ou climat ?"
+      ],
+      "responses": [
+        "La météo, c'est le temps qu'il fait aujourd'hui et le climat, c'est le temps qu'il fait sur des années."
+      ]
+    },
+    {
+      "tag": "ApprendreMeteo3",
+      "patterns": [
+        "Comment se forme la pluie ?",
+        "Pourquoi il pleut ?",
+        "Formation de la pluie"
+      ],
+      "responses": [
+        "L'eau s'évapore, monte dans l'atmosphère, forme des nuages, puis retombe en pluie quand les gouttes sont trop lourdes."
+      ]
+    },
+    {
+      "tag": "ApprendreMeteo4",
+      "patterns": [
+        "Comment se forme un arc-en-ciel ?",
+        "Pourquoi un arc-en-ciel ?",
+        "Arc-en-ciel"
+      ],
+      "responses": [
+        "Un arc-en-ciel se forme quand la lumière du soleil traverse des gouttes de pluie et se décompose en 7 couleurs."
+      ]
+    },
+    {
+      "tag": "ApprendreMeteo5",
+      "patterns": [
+        "C'est quoi un anticyclone ?",
+        "Anticyclone",
+        "Qu'est-ce qu'une dépression ?",
+        "Dépression météo"
+      ],
+      "responses": [
+        "Un anticyclone apporte du beau temps (hautes pressions), une dépression apporte pluie et vent (basses pressions)."
+      ]
+    },
+    {
+      "tag": "Présentation",
+      "patterns": [
+        "Qui es-tu ?",
+        "Qui êtes-vous ?",
+        "Présente-toi",
+        "C'est quoi un chatbot ?"
+      ],
+      "responses": [
+        "Je suis ChatBot, votre assistant virtuel créé en Python !",
+        "Je m'appelle ChatBot, un programme conçu pour vous aider !",
+        "Je suis un chatbot, un programme capable de tenir une conversation."
+      ]
+    },
+    {
+      "tag": "Aide",
+      "patterns": [
+        "Aide",
+        "Que sais-tu ?",
+        "Tu peux faire quoi ?",
+        "Help",
+        "Aidez-moi"],
+      "responses": ["Voici ce que je sais faire : \nSalutations \nMétéo \nMe présenter \nPosez-moi une question !"
+      ]
+    },
+    {
+      "tag": "AuRevoir",
+      "patterns": [
+        "Au revoir",
+        "Bye",
+        "Adieu",
+        "À bientôt",
+        "Ciao"
+      ],
+      "responses": [
+        "Au revoir, à bientôt !",
+        "À bientôt, n'hésitez pas à revenir !",
+        "Bye Bye, à très bientôt !"
+      ]
+    },
+    {
+      "tag": "Merci",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "Thanks",
+        "C'est gentil"
+      ],
+      "responses": [
+        "Avec plaisir !",
+        "De rien, Je suis là pour ça",
+        "Pas de problème, c'est mon rôle"
+      ]
+    }
+  ]
+}
