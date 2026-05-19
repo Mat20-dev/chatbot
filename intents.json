@@ -189,6 +189,15 @@
         "De rien, Je suis là pour ça",
         "Pas de problème, c'est mon rôle"
       ]
+    },
+    {
+      "tag": "nuages",
+      "patterns": [
+        "Quels sont les types de nuages ?",
+      ],
+      "responses": [
+        "Il existe plusieurs types de nuages : cirrus, cumulus, stratus, cumulonimbus…",
+      ]
     }
   ]
 }
